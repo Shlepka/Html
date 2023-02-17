@@ -1,0 +1,154 @@
+<head>  </head>
+<body bgcolor="#FADFAD">
+
+<table border="2" width="600" align="center" cellpadding="10" >
+    <tr>
+        <td colspan="2" align="center">Две ячейки, объединенные по горизонтали  </td>
+    </tr>
+    <tr>
+        <td rowspan="2">Две ячейки, объединенные по вертикали </td>
+        <td>по левому краю</td>
+        
+    </tr>
+    <tr>
+        <td align="right">по правому краю</td>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<table border="5" width="600"  align="center" cellpadding="10" >
+    <tr>
+        <th colspan="3">УЧЕБНАЯ ТАБЛИЦА </th>
+    </tr>
+    <tr>
+        <td>Это первая ячейка</td>
+        <td>Это вторая ячейка</td>
+        <td rowspan="3" align="center">А это три ячейки  объединились в одну большую</td>
+    </tr>
+    <tr>
+        <td colspan="2">Это единственная ячейка второй строки, объединяющая оба столбца</td>
+        
+    </tr>
+    <tr>
+        <td>Это первая ячейка третьей строки</td>
+        <td>Это вторая ячейка третьей строки</td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center">конец</td>
+        
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<table border="2" width="600"  align="center"
+cellpadding="10" >
+    <tr>
+        <th colspan="3">Тэги логического форматирования</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Это теги логического форматирования. Их рекомендуется использовать при создании Web-страниц</td>
+        <td>CODE</td>  
+    </tr>
+    <tr>
+        <td>STRONG</td>      
+        <td>ACRONYM</td>  
+    </tr>
+    <tr>
+        <td>VAR</td>      
+        <td>CITE</td>  
+    </tr>
+
+</table>
+<br>
+<br>
+<br>
+<table border="2" width="600"  align="center"
+cellpadding="10" >
+    <tr bgcolor="gray">
+        <td> </td>
+        <td>Команда </td>
+        <td>1 </td>
+        <td>2 </td>
+        <td>3 </td>
+        <td>4 </td>
+        <td>5</td>
+        <td>6 </td>
+        <td>Шайбы </td>
+        <td >Очки </td>
+    </tr>
+    <tr>
+        <td bgcolor="gray">1 </td>
+        <td bgcolor="gray">&laquo; Ротор &raquo; </td>
+        <td bgcolor="black"> </td>
+        <td>6:4 </td>
+        <td>2:3 </td>
+        <td>7:3 </td>
+        <td>2:1</td>
+        <td>0:0 </td>
+        <td bgcolor="#BDECB6">17  &mdash; 11 </td>
+        <td bgcolor="ff4d00">7</td>
+    </tr>
+    <tr>
+        <td bgcolor="gray">2 </td>
+        <td bgcolor="gray">&laquo; Ротатор &raquo; </td>
+        <td>4:6 </td>
+        <td bgcolor="black"> </td>
+        <td>5:4 </td>
+        <td>5:3 </td>
+        <td>5:5</td>
+        <td>2:2 </td>
+        <td bgcolor="#BDECB6">21  &mdash; 20 </td>
+        <td bgcolor="ff4d00">6</td>
+    </tr>
+    <tr>
+        <td bgcolor="gray">3 </td>
+        <td bgcolor="gray">&laquo;Урожай&raquo; </td>
+        <td>3:2 </td>
+        <td>4:5 </td>
+        <td bgcolor="black"> </td>
+        <td>0:1 </td>
+        <td>11:2</td>
+        <td>14:4 </td>
+        <td bgcolor="#BDECB6">32  &mdash; 14 </td>
+        <td bgcolor="ff4d00">6</td>
+    </tr>
+    <tr>
+        <td bgcolor="gray">4 </td>
+        <td bgcolor="gray">&laquo;Мачта&raquo; </td>
+        <td>3:7 </td>
+        <td>3:5 </td>
+        <td >1:0 </td>
+        <td bgcolor="black"> </td>
+        <td>1:1</td>
+        <td>10:0 </td>
+        <td bgcolor="#BDECB6">18  &mdash; 13 </td>
+        <td bgcolor="ff4d00">5</td>
+    </tr>
+    <tr>
+        <td bgcolor="gray">5 </td>
+        <td bgcolor="gray">&laquo;Мечта&raquo; </td>
+        <td>1:2 </td>
+        <td>5:5 </td>
+        <td >2:11 </td>
+        <td>1:1 </td>
+        <td bgcolor="black"></td>
+        <td>8:3 </td>
+        <td bgcolor="#BDECB6">17  &mdash; 22 </td>
+        <td bgcolor="ff4d00">4</td>
+    </tr>
+    <tr>
+        <td bgcolor="gray">6 </td>
+        <td bgcolor="gray">&laquo;Оказия&raquo; </td>
+        <td>0:0 </td>
+        <td>2:2 </td>
+        <td >4:14 </td>
+        <td>0:10 </td>
+        <td>3:8</td>
+        <td  bgcolor="black"> </td>
+        <td bgcolor="#BDECB6">9  &mdash; 234 </td>
+        <td bgcolor="ff4d00">2</td>
+    </tr>
+</table>
+</body>
